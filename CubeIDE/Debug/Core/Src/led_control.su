@@ -1,0 +1,13 @@
+led_control.c:15:6:traffic_all_off	8	static
+led_control.c:27:6:horizontal_red_on	8	static
+led_control.c:28:6:horizontal_red_off	8	static
+led_control.c:30:6:horizontal_green_on	8	static
+led_control.c:31:6:horizontal_green_off	8	static
+led_control.c:33:6:horizontal_yellow_on	8	static
+led_control.c:34:6:horizontal_yellow_off	8	static
+led_control.c:37:6:vertical_red_on	8	static
+led_control.c:38:6:vertical_red_off	8	static
+led_control.c:40:6:vertical_green_on	8	static
+led_control.c:41:6:vertical_green_off	8	static
+led_control.c:43:6:vertical_yellow_on	8	static
+led_control.c:44:6:vertical_yellow_off	8	static

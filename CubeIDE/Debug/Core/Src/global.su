@@ -1,0 +1,2 @@
+global.c:34:6:set_tmp_duration	4	static
+global.c:41:6:clear_all	8	static
