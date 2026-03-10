@@ -79,3 +79,43 @@ This project demonstrates several important embedded system techniques:
 ## Software Architecture
 
 Main modules:
+- main.c -> main application loop
+- traffic.c -> traffic light control logic
+- fsm_automatic.c -> automatic operation FSM
+- fsm_setting.c -> setting FSM
+- button.c -> button handling and debouncing
+- software_timer.c -> timer-based scheduling
+- lcd_i2c.c -> LCD communication driver
+- led7_segment.c -> LED control utilities
+- global.c -> global variables
+
+---
+
+## System Operation
+
+1. System starts in **Automatic Mode**
+2. Traffic lights run based on the configured timing
+3. Press **MODE button** to enter configuration
+4. Adjust timing values using buttons
+5. Press **EXIT** to return to automatic operation
+
+Timing values and system status are displayed on the LCD.
+
+---
+
+## Demonstration
+
+The system was implemented and tested on real hardware using a breadboard setup.
+
+It demonstrates how embedded software interacts with hardware components such as LEDs, buttons, and LCD modules.
+
+---
+
+## Purpose of This Project
+
+This project was developed to practice and demonstrate:
+
+- embedded system design
+- modular C programming for microcontrollers
+- real-time control logic using finite state machines
+- hardware interaction through peripherals
