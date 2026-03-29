@@ -1,5 +1,9 @@
 # STM32 Traffic Light Controller
 
+## 🎬 Demonstration Video
+
+[![Traffic Light Controller Demo](./demo/demo.png)](https://drive.google.com/file/d/10LHnua_AwEuC5n9KG4-UnuzWp9znrDyR/view)
+
 Embedded traffic light control system implemented on STM32 using C.  
 The system demonstrates core embedded concepts such as **finite state machines, software timers, button debouncing, and peripheral interfacing**.
 
